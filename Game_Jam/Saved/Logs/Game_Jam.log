@@ -7090,3 +7090,109 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.11-22.55.07:402][ 14]AssetCheck: New page: Asset Save: multiple assets
 [2024.02.11-22.55.07:402][ 14]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Actors.BP_Pickup_Actors_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_18C04DAE294B6FD801_1929376795
 [2024.02.11-22.55.07:402][ 14]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Actors.BP_Pickup_Actors_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_18C04DAE294B6FD801_1930572796
+[2024.02.11-23.05.33:673][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-23.05.33:703][925]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/8Q/DD1U6HZH1YMWNFISNK1IVC does not exist, will not scan.
+[2024.02.11-23.05.33:703][925]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/AX/A3NBQEVP14MJR284FOFDNO does not exist, will not scan.
+[2024.02.11-23.05.33:703][925]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/GQ/CDE5NR3PEW404XINKJOGOG does not exist, will not scan.
+[2024.02.11-23.05.33:713][925]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Actors
+[2024.02.11-23.05.33:714][925]LogSavePackage: Moving '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Saved/BP_Pickup_Actors2A5739AA421E3CBBF1EBCCB398BCF013.tmp' to '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Content/FirstPerson/Blueprints/BP_Pickup_Actors.uasset'
+[2024.02.11-23.05.33:720][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 7.38 sec)
+[2024.02.11-23.05.33:721][925]AssetCheck: New page: Asset Save: BP_Pickup_Actors
+[2024.02.11-23.05.33:721][925]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Actors.BP_Pickup_Actors
+[2024.02.11-23.05.42:397][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: ================================================
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: RAM used: 19.62 KiB of 819.20 MiB budget. Usage: 0.00%
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Job execution time: average 0.33 s, max 0.33 s
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Job life time (pending + execution): average 0.37 s, max 0.37
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Shader code size: average 31.922 KiB, min 31.922 KiB, max 31.922 KiB
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.37 s
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Average processing rate: 2.69 jobs/sec
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Total thread time: 0.119 s
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Total thread preprocess time: 0.023 s
+[2024.02.11-23.05.42:809][655]LogShaderCompilers: Display: Percentage time preprocessing: 19.35%
+[2024.02.11-23.05.42:810][655]LogShaderCompilers: Display: Effective parallelization: 0.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.11-23.05.42:810][655]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.02.11-23.05.42:810][655]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.12 sec, max 0.12 sec, min 0.12 sec)
+[2024.02.11-23.05.42:810][655]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.02.11-23.05.42:810][655]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.12 sec, max 0.12 sec, min 0.12 sec)
+[2024.02.11-23.05.42:810][655]LogShaderCompilers: Display: ================================================
+[2024.02.11-23.06.14:274][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-23.06.14:321][199]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Materials/MAT_HiddenRoughness
+[2024.02.11-23.06.14:321][199]LogSavePackage: Moving '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Saved/MAT_HiddenRoughness30E4D6924D5D3B3B2B10BA97F95011A7.tmp' to '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Content/LevelPrototyping/Materials/MAT_HiddenRoughness.uasset'
+[2024.02.11-23.06.14:328][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 7.43 sec)
+[2024.02.11-23.06.14:344][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.02.11-23.06.14:358][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.02.11-23.06.14:371][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.02.11-23.06.14:382][199]AssetCheck: New page: Asset Save: MAT_HiddenRoughness
+[2024.02.11-23.06.14:382][199]LogContentValidation: Display: Validating /Script/Engine.Material /Game/LevelPrototyping/Materials/MAT_HiddenRoughness.MAT_HiddenRoughness
+[2024.02.11-23.06.21:785][745]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.11-23.06.21:820][745]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.11-23.06.21:828][746]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.11-23.06.27:807][251]LogContentBrowser: Attempting asset rename: NewFolder -> PuzzleMaterials
+[2024.02.11-23.06.27:807][251]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.11-23.06.31:971][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-23.06.32:003][568]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness
+[2024.02.11-23.06.32:003][568]LogSavePackage: Moving '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Saved/MAT_HiddenRoughness52C8B87E4FBD16EC5C333CB68CAFF12C.tmp' to '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Content/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.uasset'
+[2024.02.11-23.06.32:008][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 7.47 sec)
+[2024.02.11-23.06.32:032][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.02.11-23.06.32:046][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.02.11-23.06.32:055][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.02.11-23.06.32:067][568]AssetCheck: New page: Asset Save: MAT_HiddenRoughness
+[2024.02.11-23.06.32:067][568]LogContentValidation: Display: Validating /Script/Engine.Material /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.MAT_HiddenRoughness
+[2024.02.11-23.06.40:944][246]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.MAT_HiddenRoughness
+[2024.02.11-23.06.40:951][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-23.06.40:951][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-23.06.41:073][246]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.11-23.06.41:073][246]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.11-23.06.41:073][246]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.11-23.06.41:073][246]MaterialEditorStats: Shader Count: 0
+[2024.02.11-23.06.41:076][246]LogViewport: Scene viewport resized to 504x624, mode Windowed.
+[2024.02.11-23.06.41:162][248]MaterialEditorStats: Base pass shader: 192 instructions
+[2024.02.11-23.06.41:162][248]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.02.11-23.06.41:162][248]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.11-23.06.41:162][248]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.11-23.06.41:162][248]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.11-23.06.41:162][248]MaterialEditorStats: Shader Count: 4
+[2024.02.11-23.06.45:525][754]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.11-23.06.45:525][754]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.11-23.06.45:525][754]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.11-23.06.45:525][754]MaterialEditorStats: Shader Count: 0
+[2024.02.11-23.06.45:578][755]MaterialEditorStats: Base pass shader: 192 instructions
+[2024.02.11-23.06.45:578][755]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.02.11-23.06.45:578][755]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.11-23.06.45:578][755]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.11-23.06.45:578][755]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.11-23.06.45:578][755]MaterialEditorStats: Shader Count: 4
+[2024.02.11-23.06.54:288][786]LogMaterialEditor: Saving and Compiling material MAT_HiddenRoughness
+[2024.02.11-23.06.54:367][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.02.11-23.06.54:542][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.02.11-23.06.54:551][786]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-23.06.54:627][786]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness
+[2024.02.11-23.06.54:627][786]LogSavePackage: Moving '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Saved/MAT_HiddenRoughness93720A9140C5FA19E747F7AA83127941.tmp' to '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Content/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.uasset'
+[2024.02.11-23.06.54:633][786]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 7.55 sec)
+[2024.02.11-23.06.54:634][786]AssetCheck: New page: Asset Save: MAT_HiddenRoughness
+[2024.02.11-23.06.54:634][786]LogContentValidation: Display: Validating /Script/Engine.Material /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.MAT_HiddenRoughness
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: Base pass shader: 192 instructions
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: MaxSampler: 241 instructions
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.11-23.06.54:635][786]MaterialEditorStats: Shader Count: 16
+[2024.02.11-23.07.29:162][908]LogMaterialEditor: Saving and Compiling material MAT_HiddenRoughness
+[2024.02.11-23.07.29:209][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.02.11-23.07.29:384][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.02.11-23.07.29:393][908]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-23.07.29:453][908]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness
+[2024.02.11-23.07.29:453][908]LogSavePackage: Moving '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Saved/MAT_HiddenRoughnessC337602E4D07383ADB8FE590E9716CDB.tmp' to '../../../../../../Users/laura.silveira/Documents/Unreal Projects/GameJam_/Game_Jam/Content/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.uasset'
+[2024.02.11-23.07.29:460][908]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 7.62 sec)
+[2024.02.11-23.07.29:461][908]AssetCheck: New page: Asset Save: MAT_HiddenRoughness
+[2024.02.11-23.07.29:461][908]LogContentValidation: Display: Validating /Script/Engine.Material /Game/LevelPrototyping/Materials/PuzzleMaterials/MAT_HiddenRoughness.MAT_HiddenRoughness
