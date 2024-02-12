@@ -80,3 +80,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Game_Jam/Saved/Logs/Game_Jam.log
