@@ -1,3 +1,5 @@
+# ChickEnd (Global Game Jam 2024)
+
 After years of being slaughtered by humans, chickens have decided to get a-head of the problem.
 Be a part of the rebellion.
  "Chickenize" them all!
